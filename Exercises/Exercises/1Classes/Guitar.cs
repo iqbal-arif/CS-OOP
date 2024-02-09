@@ -8,16 +8,19 @@ namespace Exercises._1Classes
 {
     class Guitar
     {
-        public Guitar(string brand, string type, string shape)
+        public Guitar(Brand brand, string type, string shape,int price)
         {
             GuitarBrand = brand;
             GuitarType = type;
             GuitarShape = shape;
+            Price = price;
+
         }
 
-        public string GuitarBrand { get; set; }
+        public Brand GuitarBrand { get; set; }
         public string GuitarType { get; set; }
         public string GuitarShape { get; set; }
+        public int Price { get; set;}
     }
 
     //Guitar Type: Acoustic, Electric , Spanish, Bass, Banjo, Classical
