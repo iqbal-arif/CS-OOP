@@ -1,0 +1,2 @@
+1. Delete hidden vs. file
+2. Delete bin and obj when sending file to someone.
