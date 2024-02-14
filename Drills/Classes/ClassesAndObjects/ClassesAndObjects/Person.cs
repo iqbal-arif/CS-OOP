@@ -15,6 +15,7 @@ namespace ClassesAndObjects
 
         public string name; //By default it is private variable
        // public int age; // Public Member
-        public static int age;
+        //public static int age;   //Wit static it can be access as Person.age
+        public  int age;
     }
 }

@@ -17,8 +17,8 @@
             Person person2 = new Person("Lee");
 
            // person1.name = "Bob"; // Initially defined, but later passed it as a parameter.
-            person1.age = 30;
-
+           // Person.age = 30; // since age is static measn it is shared and don't need object construtor to run it
+           person1.age = 30;
            // person2.name = "Lee";
             person2.age = 40;
 

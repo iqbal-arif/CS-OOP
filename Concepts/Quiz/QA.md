@@ -1,0 +1,22 @@
+**Classes**
+
+Q1. Which one of these statements is true regarding classes?
+A1. A class is a collection of logically related members (such as methods).
+
+Q2: Which one of these statements is true regarding objects?
+A2: An Object represents a specific instance of a class.
+
+Q3: What is a constructor?
+A3: A special class member used to create an object of the class.
+
+Q4: What does the this keyword represent?
+A4: The current object / instance of a class.
+
+Q5: A private member can...
+A5: Be called from within the class itself.
+
+Q6: A public member can...
+A6: Be called within the class itself and on an object of the class.
+
+Q7: Static members are..
+A7: Called directly on the class.
