@@ -56,3 +56,16 @@ A5: Bo
 
 Q6: Which loop is typically used to iterate over an array (if we need to know the index of the iteration)?
 A6: The for loop.
+
+
+**Properties**
+
+Q1: Name one benefit that properties offer over a public field/class variable
+A1: Values can be validated before assignment.
+
+Q2: If C# didn't support properties, we could get the same functionality using...
+A2: Get/Set methods used fro providing read/write access to a field/class variable.
+
+Q3: The following is true regarding automatic properties:
+A3: They provide a more terse (smooth) syntax than traditional / full properties.
+
