@@ -20,3 +20,39 @@ A6: Be called within the class itself and on an object of the class.
 
 Q7: Static members are..
 A7: Called directly on the class.
+
+
+**Array**
+
+Q1: When is it appropriate to use an array?
+A1: When we need to represent a series of related values.
+
+Q2: What index is used to access the first item in an array?
+A2: 0
+
+Q3: What code would access the last value of the names array?
+A3: names[names.Length - 1]
+
+Q4: What will be written on the console given the following code?
+
+```
+string[] names = { "Bo", "Li", "An" };
+
+Console.WriteLine(names[1]);
+```
+A4: Li
+
+Q5: What will be printed on the console given the following code?
+
+```
+string[] names = { "Bo", "Li", "An" };
+
+Array.Reverse(names);
+
+
+Console.WriteLine(names[names.Length - 1]);
+```
+A5: Bo
+
+Q6: Which loop is typically used to iterate over an array (if we need to know the index of the iteration)?
+A6: The for loop.
