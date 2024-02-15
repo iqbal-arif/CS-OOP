@@ -69,3 +69,21 @@ A2: Get/Set methods used fro providing read/write access to a field/class variab
 Q3: The following is true regarding automatic properties:
 A3: They provide a more terse (smooth) syntax than traditional / full properties.
 
+
+
+**Object-Oriented-Programming**
+
+Q1: Name one benefit of using object-oriented programming
+A1: Encapsulation - it's easy to get going since complexity is typically hidden behind an API.
+
+Q2: What best describes a class?
+A2: A "blueprint" from which objects/instances can be created.
+
+Q3: What best describes an object/instance?
+A3: A manifestation of a class, created by calling a constructor.
+
+Q4: How many objects/instances of a class are typically created in a program?
+A4: Strange question - however many we need.
+
+Q5: Which is the only type of class member in which time-consuming operations are expected?
+A5: Methods
