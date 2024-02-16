@@ -1,4 +1,6 @@
-﻿namespace Employment
+﻿using System.Threading.Channels;
+
+namespace Employment
 {
     internal class Program
     {
@@ -6,43 +8,22 @@
         {
             Console.WriteLine("Employment!\n");
 
-            Employee employeeOne = new Employee();
-            Consultant consultantOne= new Consultant(45, 250);
+            Employee employeeOne = new Employee("Arif", "Research");
+            Consultant consultantOne= new Consultant("Iqbal", 45, 250);
+           // Company company = new Company("Dell", new List<string>() { "Jack" }, new() { "Joe" });
+           Company company = new Company("Dell");
+            company.Employees.Add(new Employee("Jack", "HR"));
+            company.Employees.Add(new Employee("Joe", "HR"));
+            company.Employees.Add(new Employee("Jim", "Sales"));
+            company.Consultants.Add(new Consultant("Mark", 80, 15));
 
-            Console.WriteLine(employeeOne.Name);
-            Console.WriteLine(consultantOne.Name);
-            Console.WriteLine(consultantOne.HourlyRate);
-            Console.WriteLine(consultantOne.HoursReported);
-        }
-    }
+            Console.WriteLine("Employee : {0} is hired in {1} Departement.", employeeOne.Name, employeeOne.Department);
+            Console.WriteLine();
+            Console.WriteLine("Consultant : {0} reprted {1} hours and his hourly rate are {2}.", consultantOne.Name,consultantOne.HoursReported,consultantOne.HourlyRate);
+            Console.WriteLine();
 
-    class Person
-    {
-        public Person(string name)
-        {
-            Name = name;
+            Console.WriteLine(company.Employees.Count);
+            Console.WriteLine(company.Consultants.Count);
         }
-        public string Name { get; set; }
-    }
-
-    class Employee : Person
-    {
-        public Employee() : base("Arif")
-        {
-            Console.WriteLine(Name);
-        }
-        public string Department { get; set; }
-    }
-
-    class Consultant : Person
-    {
-        public Consultant(int hourRate, int hourReport) : base("Arif")
-        {
-            Console.WriteLine(Name);
-            Console.WriteLine(HourlyRate);
-            Console.WriteLine(HoursReported);
-        }
-        public decimal HourlyRate { get; set; }
-        public int HoursReported { get; set; }
     }
 }
