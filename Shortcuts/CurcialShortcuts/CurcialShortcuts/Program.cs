@@ -30,7 +30,8 @@ namespace CurcialShortcuts
 
         private static void MethodShortcut()
         {
-            
+            Console.WriteLine( "cla for class\n");
+            Console.WriteLine( "cla for class\n");
         }
 
     
@@ -38,7 +39,7 @@ namespace CurcialShortcuts
 
     class CodeSnipptes()
     {
-            Console.WriteLine("Cla for Class");
+      
         
     }
 }
