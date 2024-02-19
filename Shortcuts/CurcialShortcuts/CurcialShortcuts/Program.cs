@@ -1,8 +1,10 @@
 ﻿
 
+using System.Threading.Channels;
+
 namespace CurcialShortcuts
 {
-    internal class Program
+     class Program
     {
         static void Main(string[] args)
         {
@@ -12,6 +14,8 @@ namespace CurcialShortcuts
             MethodShortcut();
 
             MethodWithParameter("Shortcut");
+
+            Person.CelebrateBirthday();
         }
 
         private static void MethodWithParameter(string v)
@@ -28,5 +32,13 @@ namespace CurcialShortcuts
         {
             
         }
+
+    
+    }
+
+    class CodeSnipptes()
+    {
+            Console.WriteLine("Cla for Class");
+        
     }
 }
