@@ -87,3 +87,21 @@ A4: Strange question - however many we need.
 
 Q5: Which is the only type of class member in which time-consuming operations are expected?
 A5: Methods
+
+**Inheridtance**
+
+Q1: What members are inherited when deriving from a base-class?
+A1: All non-private members except for constructors
+
+Q2: Which class is at the “top” of each inheritance chain?
+A2: Object.
+
+Q3: How many direct base classes can a class have in C#?
+A3: One
+
+Q4: If class Employee inherits class Person, and Person has a constructor that takes in a name, what must Employee do?
+A4: Any constructor in Employee must call a constructor in Person, passing along name.
+
+Q5: What does it mean for a class to be abstract?
+A5: The class can be inherited from, but not instanstiated.
+
